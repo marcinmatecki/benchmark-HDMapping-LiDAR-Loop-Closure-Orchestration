@@ -12,7 +12,7 @@ The required KITTI data will be downloaded and prepared automatically.
 mkdir -p ~/hdmapping-benchmark-loop-closure
 cd ~/hdmapping-benchmark-loop-closure
 
-git clone https://github.com/marcinmatecki/benchmark-HDMapping-LiDAR-Loop-Closure-Orchestration.git
+git clone https://github.com/MapsHD/benchmark-HDMapping-LiDAR-Loop-Closure-Orchestration.git
 
 cd benchmark-HDMapping-LiDAR-Loop-Closure-Orchestration
 ```
