@@ -35,7 +35,7 @@ LOOP_CLOSURE_REPOS=(
 )
 
 LOOP_CLOSURE_URLS=(
-    "https://github.com/MapsHD/"benchmark-BEV-LIO-LC-to-HDMapping.git"
+    "https://github.com/MapsHD/benchmark-BEV-LIO-LC-to-HDMapping.git"
     "https://github.com/MapsHD/benchmark-KISS-Matcher-to-HDMapping.git"
     "https://github.com/MapsHD/benchmark-HDMapping-LiDAR-Loop-Closure-Open3D.git"
 )
