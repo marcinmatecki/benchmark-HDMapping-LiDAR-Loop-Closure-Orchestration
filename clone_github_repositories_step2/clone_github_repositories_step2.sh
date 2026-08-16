@@ -29,15 +29,15 @@ else
 fi
 
 LOOP_CLOSURE_REPOS=(
-    "BEV-LIO-LC-to-HDMAPPING"
-    "KISS-MATCHER-to-HDMAPPING"
-    "Open3D-to-HDMAPPING"
+    "benchmark-BEV-LIO-LC-to-HDMapping"
+    "benchmark-KISS-Matcher-to-HDMapping"
+    "benchmark-HDMapping-LiDAR-Loop-Closure-Open3D"
 )
 
 LOOP_CLOSURE_URLS=(
-    "https://github.com/MapsHD/BEV-LIO-LC-to-HDMAPPING.git"
-    "https://github.com/MapsHD/KISS-MATCHER-to-HDMAPPING.git"
-    "https://github.com/MapsHD/Open3D-to-HDMAPPING.git"
+    "https://github.com/MapsHD/"benchmark-BEV-LIO-LC-to-HDMapping.git"
+    "https://github.com/MapsHD/benchmark-KISS-Matcher-to-HDMapping.git"
+    "https://github.com/MapsHD/benchmark-HDMapping-LiDAR-Loop-Closure-Open3D.git"
 )
 
 clone_repo() {
