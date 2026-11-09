@@ -27,8 +27,9 @@ results and evaluates trajectories, point clouds and loop closures.
 ```bash
 mkdir -p ~/hdmapping-benchmark-loop-closure
 cd ~/hdmapping-benchmark-loop-closure
-git clone https://github.com/MapsHD/benchmark-HDMapping-LiDAR-LoopClosure-Orchestration.git --recursive
+git clone https://github.com/MapsHD/benchmark-HDMapping-LiDAR-LoopClosure-Orchestration.git
 cd benchmark-HDMapping-LiDAR-LoopClosure-Orchestration
+git checkout kitti
 chmod +x start_benchmark.sh
 ./start_benchmark.sh
 ```
