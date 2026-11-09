@@ -34,7 +34,7 @@ Each framework is started by the run script from its own repository:
 
 | Framework | Repository | Run script |
 |---|---|---|
-| Optimized SC-F-LOAM (ROS 1) | `benchmark-optimized-sc-f-loam-to-HDMapping` | `docker_session_run-ros1-optimized-sc-f-loam.sh` |
+| Optimized SC-F-LOAM (ROS 1) | `benchmark-Optimized-SC-F-LOAM-to-HDMapping` | `docker_session_run-ros1-optimized-sc-f-loam.sh` |
 | PIN-SLAM | `benchmark-PIN-SLAM-to-HDMapping` | `docker_session_run-pin-slam.sh` |
 
 Both paths are converted to absolute paths, so relative paths can be used.

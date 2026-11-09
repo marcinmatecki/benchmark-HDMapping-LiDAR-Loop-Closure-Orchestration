@@ -24,10 +24,10 @@ mkdir -p "$OUTPUT_DIR"
 
 CLONE_DIR="$HOME/hdmapping-benchmark-loop-closure"
 
-mkdir -p $CLONE_DIR/benchmark-optimized-sc-f-loam-to-HDMapping/message/Scans
+mkdir -p $CLONE_DIR/benchmark-Optimized-SC-F-LOAM-to-HDMapping/message/Scans
 
 ROS1_REPOS=(
-"benchmark-optimized-sc-f-loam-to-HDMapping"
+"benchmark-Optimized-SC-F-LOAM-to-HDMapping"
 )
 
 ROS1_ALGOS=(

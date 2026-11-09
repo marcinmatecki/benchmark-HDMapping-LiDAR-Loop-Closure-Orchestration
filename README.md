@@ -60,7 +60,7 @@ Each folder contains its own README with details.
 ```
 ~/hdmapping-benchmark-loop-closure/
 ├── benchmark-HDMapping-LiDAR-LoopClosure-Orchestration/   # this repository
-├── benchmark-optimized-sc-f-loam-to-HDMapping/            # step 2
+├── benchmark-Optimized-SC-F-LOAM-to-HDMapping/            # step 2
 ├── benchmark-PIN-SLAM-to-HDMapping/                       # step 2
 └── data/                                                  # mounted as /data in Docker
     ├── kitti_seqXX_ros1.bag                               # step 1

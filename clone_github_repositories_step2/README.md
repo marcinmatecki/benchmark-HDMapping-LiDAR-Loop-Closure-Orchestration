@@ -35,14 +35,14 @@ Example:
 
 | Framework | Repository | Docker image |
 |---|---|---|
-| Optimized SC-F-LOAM (ROS 1 Noetic) | [benchmark-optimized-sc-f-loam-to-HDMapping](https://github.com/MapsHD/benchmark-optimized-sc-f-loam-to-HDMapping) | `optimized-sc-f-loam_noetic` |
+| Optimized SC-F-LOAM (ROS 1 Noetic) | [benchmark-Optimized-SC-F-LOAM-to-HDMapping](https://github.com/MapsHD/benchmark-Optimized-SC-F-LOAM-to-HDMapping) | `optimized-sc-f-loam_noetic` |
 | PIN-SLAM (Python) | [benchmark-PIN-SLAM-to-HDMapping](https://github.com/MapsHD/benchmark-PIN-SLAM-to-HDMapping) | `pin-slam_cuda` |
 
 ## Resulting layout
 
 ```
 ~/hdmapping-benchmark-loop-closure/
-├── benchmark-optimized-sc-f-loam-to-HDMapping/
+├── benchmark-Optimized-SC-F-LOAM-to-HDMapping/
 ├── benchmark-PIN-SLAM-to-HDMapping/
 └── data/            # created by the dataset download script
 ```
