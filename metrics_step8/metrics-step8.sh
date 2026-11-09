@@ -9,6 +9,8 @@ THRESHOLD=0.05
 
 cd "$SCRIPT_DIR" || exit 1
 
+git clone https://github.com/MapsHD/point_clouds_evaluation.git
+
 echo "=== Step 8: point_clouds_evaluation ==="
 echo "Building Docker image '$IMAGE_NAME'..."
 docker build -t "$IMAGE_NAME" . || exit 1
