@@ -3,7 +3,7 @@
 set -e
 
 DATA_DIR=~/hdmapping-benchmark-loop-closure/data
-REPO_DIR=~/hdmapping-benchmark-loop-closure/benchmark-HDMapping-LiDAR-LoopClosure-Orchestration
+REPO_DIR=~/hdmapping-benchmark-loop-closure/benchmark-HDMapping-LiDAR-Loop-Closure-Orchestration
 mkdir -p "$DATA_DIR"
 cd "$DATA_DIR"
 
