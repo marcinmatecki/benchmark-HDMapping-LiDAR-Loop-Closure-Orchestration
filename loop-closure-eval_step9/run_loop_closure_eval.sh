@@ -39,7 +39,7 @@ docker run --rm \
     --name pin_slam --csv tum/loop-closure-results/metrics.csv \
     --no_show --save tum/loop-closure-results/pin_slam_result.png
 
-# SC-F-LOAM
+# Optimized-SC-F-LOAM
 docker run --rm \
     --user 1000:1000 \
     -v ~/hdmapping-benchmark-loop-closure/data:/data \
@@ -49,5 +49,5 @@ docker run --rm \
     tum/ground_truth.tum tum/sc_f_loam_edges.csv \
     --dist 5 --min_dt 30 \
     --t_offset_from tum/output_hdmapping-optimized-sc-f-loam_trajectory_tum.txt \
-    --name sc_f_loam --csv tum/loop-closure-results/metrics.csv \
-    --no_show --save tum/loop-closure-results/sc_f_loam_result.png
+    --name optimized_sc_f_loam --csv tum/loop-closure-results/metrics.csv \
+    --no_show --save tum/loop-closure-results/optimized_sc_f_loam_result.png
